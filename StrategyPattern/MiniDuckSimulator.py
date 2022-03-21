@@ -66,6 +66,7 @@ class Duck(object):
 
 
 class MallardDuck(Duck):
+    print('an mallarduck init')
     def __init__(self):
         self.quack_behavior = Quack()
         self.fly_behavior = FlyWithWings()
@@ -75,6 +76,7 @@ class MallardDuck(Duck):
 
 
 class ModelDuck(Duck):
+    print('an model duck init')
     def __init__(self):
         self.fly_behavior = FlyNoWay()
         self.quack_behavior = Quack()
